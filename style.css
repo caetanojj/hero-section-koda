@@ -11,6 +11,7 @@ body {
   background-color: #0F1212;
 }
 
+/* EFEITO DO FUNDO DA PÁGINA */
 .bg-glow-red {
   width: 400px;
   height: 400px;
@@ -41,8 +42,9 @@ body {
   z-index: -1;
 }
 
+/* HEADER */
 header {
-  height: 160px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
