@@ -46,35 +46,46 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 64px;
+  padding: 0 64px;
+  border-bottom: 1px solid #bababa14;
 }
 
-header h1 {
+header .logo {
   font-size: 40px;
   font-weight: bold;
   color: #F3EFE0;
 }
 
-header ul {
+header .logo-gradient{
+  background: linear-gradient(
+    90deg,
+    #BA1A4F,
+    #1987a6cc);
+  background-clip: text;
+  color: transparent;
+}
+
+header .lista-nav {
   list-style-type: none;
   display: flex;
   gap: 32px;
 }
 
-header ul > li > a {
+header .lista-nav a {
   text-decoration: none;
   font-size: 20px;
   color: #A6A398;
 }
 
-header button {
+header .btn-entrar {
   padding: 10px 22px;
   background-color: #630E2A;
   border: none;
   border-radius: 6px;
 }
 
-header button > a {
+header .btn-entrar a {
   color: #F3EFE0;
+  font-weight: bold;
   text-decoration: none;
 }
