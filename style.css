@@ -42,6 +42,16 @@ body {
   z-index: -1;
 }
 
+/* TEXTO GRADIENTE */
+.texto-gradient{
+  background: linear-gradient(
+    90deg,
+    #BA1A4F,
+    #1987a6cc);
+  background-clip: text;
+  color: transparent;
+}
+
 /* HEADER */
 header {
   height: 100px;
@@ -53,43 +63,36 @@ header {
 }
 
 header .logo {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
   color: #F3EFE0;
-}
-
-header .logo-gradient{
-  background: linear-gradient(
-    90deg,
-    #BA1A4F,
-    #1987a6cc);
-  background-clip: text;
-  color: transparent;
 }
 
 header .lista-nav {
   list-style-type: none;
   display: flex;
   gap: 32px;
-}
 
-header .lista-nav a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #A6A398;
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #A6A398;
+  }
 }
 
 header .btn-entrar {
-  padding: 10px 22px;
   background-color: #630E2A;
+  padding: 10px 22px;
   border: none;
   border-radius: 6px;
-}
 
-header .btn-entrar a {
-  color: #F3EFE0;
-  font-weight: bold;
-  text-decoration: none;
+  a {
+    color: #F3EFE0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
 }
 
 /* MAIN */
@@ -105,7 +108,10 @@ main .container-aviso-tec {
   display: flex;
   align-items: center;
   gap: 10px;
+  background-color: #1987a614;
   padding: 6px 14px;
+  border: 1px solid #1987a659;
+  border-radius: 100px;
 }
 
 main .circulo-aviso-tec {
@@ -119,4 +125,61 @@ main .aviso-tec {
   font-size: 12px;
   text-transform: uppercase;
   color: #1987A6;
+}
+
+main .titulo-destaque {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #CFCBBE;
+}
+
+main .paragrafo-destaque {
+  text-align: center;
+  font-size: 18px;
+  color: #CFCBBE;
+  line-height: 200%;
+}
+
+main .container-btn {
+  display: flex;
+  gap: 16px;
+
+  button {
+    border-radius: 8px;
+  }
+  a {
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+}
+
+main .btn-conta {
+  background: linear-gradient(
+    90deg,
+    #630E2A,
+    #91143E);
+  padding: 14px 32px;
+  border: none;
+
+  a {
+    color: #F3EFE0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+main .btn-cursos {
+  background-color: #0F1212;
+  padding: 14px 28px;
+  border: 1px solid #404040;
+  a {
+    color: #CFCBBE;
+    font-size: 16px;
+  }
+}
+
+/* FOOTER */
+footer {
+
 }
