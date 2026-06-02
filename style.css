@@ -181,5 +181,28 @@ main .btn-cursos {
 
 /* FOOTER */
 footer {
+  display: flex;
+  justify-content: center;
+}
 
+footer .container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 80px;
+  border-top: 1px solid #bababa14;
+  width: 1000px;
+}
+
+footer .hrs-conteudo {
+
+}
+
+footer .alunos-ativos {
+  
+}
+
+footer .avl-media {
+  
 }
