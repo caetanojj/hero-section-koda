@@ -91,3 +91,32 @@ header .btn-entrar a {
   font-weight: bold;
   text-decoration: none;
 }
+
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+main .container-aviso-tec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px;
+}
+
+main .circulo-aviso-tec {
+  width: 10px;
+  height: 10px;
+  background-color: #1987A6;
+  border-radius: 50%;
+}
+
+main .aviso-tec {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #1987A6;
+}
