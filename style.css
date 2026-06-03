@@ -54,16 +54,17 @@ body {
 
 /* HEADER */
 header {
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 64px;
+  padding: 0 100px;
   border-bottom: 1px solid #bababa14;
+  box-shadow: 0px 2px 20px 0.5px #ba1a4f41;
 }
 
 header .logo {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
   color: #F3EFE0;
 }
@@ -81,9 +82,9 @@ header .lista-nav {
 }
 
 header .btn-entrar {
-  background-color: #630E2A;
-  padding: 10px 22px;
-  border: none;
+  background-color: #630e2a80;
+  padding: 8px 18px;
+  border: 1px solid #BA1A4F;
   border-radius: 6px;
 
   a {
@@ -101,7 +102,7 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 50px 0;
+  padding: 60px 0px 80px 0px;
 }
 
 main .container-aviso-tec {
@@ -112,24 +113,25 @@ main .container-aviso-tec {
   padding: 6px 14px;
   border: 1px solid #1987a659;
   border-radius: 100px;
+  margin-bottom: 20px;
 }
 
 main .circulo-aviso-tec {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #1987A6;
   border-radius: 50%;
 }
 
 main .aviso-tec {
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   color: #1987A6;
 }
 
 main .titulo-destaque {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   color: #CFCBBE;
 }
@@ -189,9 +191,9 @@ footer .container-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
   gap: 80px;
-  border-top: 1px solid #bababa14;
+  border-top: 2px solid #bababa14;
   width: 1000px;
 
   div {
@@ -201,7 +203,7 @@ footer .container-footer {
     justify-content: center;
   }
   h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
   }
   p {
