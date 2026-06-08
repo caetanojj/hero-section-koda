@@ -205,6 +205,15 @@ footer .container-footer {
     font-size: 40px;
     font-weight: bold;
   }
+  .container-star {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .container-star img {
+    width: 30px;
+    height: 30px;
+  }
   p {
     text-transform: uppercase;
     text-align: center;
