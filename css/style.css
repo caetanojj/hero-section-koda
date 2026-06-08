@@ -7,31 +7,14 @@
 }
 :root {
   /* COLORS */
-  --pink-light: #ba1a4f;
-  --pink-base: #91143e;
-  --pink-mid: #630e2a;
-  --pink-dark: #40091b;
-  --blue-light: #1987a6;
-  --blue-base: #126278;
-  --blue-mid: #0f4c5c;
-  --blue-dark: #0b3c49;
-  --shape-background: #0f1212;
-  --shape-base: #121212;
-  --shape-hover: #404040;
-  --shape-stroke: #bababa;
-  --text-title: #f3efe0;
-  --text-body: #cfcbbe;
-  --text-label: #a6a398;
-
-  /* COLORS */
-  --pink-light: #ba1a4f;
-  --pink-base: #91143e;
-  --pink-mid: #630e2a;
-  --pink-dark: #40091b;
-  --blue-light: #1987a6;
-  --blue-base: #126278;
-  --blue-mid: #0f4c5c;
-  --blue-dark: #0b3c49;
+  --primary-light: #ba1a4f;
+  --primary-base: #91143e;
+  --primary-mid: #630e2a;
+  --primary-dark: #40091b;
+  --secondary-light: #1987a6;
+  --secondary-base: #126278;
+  --secondary-mid: #0f4c5c;
+  --secondary-dark: #0b3c49;
   --shape-background: #0f1212;
   --shape-base: #121212;
   --shape-hover: #404040;
