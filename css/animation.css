@@ -1,0 +1,61 @@
+/* HEADER */
+header .logo:hover {
+    rotate: -3deg;
+    transition: rotate 0.3s ease;
+
+    .texto-rosado {
+        color: var(--secondary-light);
+    }
+}
+
+header nav:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+header nav a:hover {
+    color: var(--text-title);
+    font-size: 18px;
+}
+
+header nav a:active {
+    font-size: 16px;
+}
+
+header .btn-entrar:hover {
+    rotate: 3deg;
+    transition: rotate 0.3s ease;
+    background-color: var(--secondary-light-hover);
+    border: 1px solid var(--secondary-light);
+    transition: background-color 0.3s ease;
+}
+
+/* MAIN */
+main .titulo-destaque span:hover {
+    color: var(--secondary-light);
+    transition: color 0.3s ease;
+}
+
+main .btn-conta:hover {
+    background: linear-gradient(
+    90deg,
+    var(--secondary-dark),
+    var(--secondary-base));
+    transition: background 0.3s ease;
+}
+
+main .btn-cursos:hover {
+    background-color: var(--shape-hover);
+    border: 1px solid var(--shape-stroke);
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+/* FOOTER */
+footer h2:hover {
+    color: var(--primary-light);
+    transition: color 0.3s ease;
+
+    img {
+        color: var(--primary-light);
+    }
+}

@@ -16,6 +16,7 @@
   --primary-mid-opacity: #630e2a80; 
   --primary-dark: #40091b;
   --secondary-light: #1987a6;
+  --secondary-light-hover: #1987a680;
   --secondary-light-opacity: #1987a624;
   --secondary-base: #126278;
   --secondary-mid: #0f4c5c;
@@ -70,6 +71,10 @@ header .logo {
 
 header .texto-tachado {
   text-decoration: line-through;
+}
+
+header nav {
+  padding: 10px;
 }
 
 header .lista-nav {
