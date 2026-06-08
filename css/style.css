@@ -118,7 +118,7 @@ header .btn-entrar {
 /* MAIN */
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 20px;
   padding: 80px 0 0 0;
@@ -185,8 +185,11 @@ main {
   }
 }
 
-.main-image {
-  width: 800px;
+.main-image{
+  width: 900px;
+}
+.main-image img{
+  width: 100%;
 }
 
 /* FOOTER */
