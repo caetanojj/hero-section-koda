@@ -208,7 +208,7 @@ footer .container-footer {
   .container-star {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 2px;
   }
   .container-star img {
     width: 30px;
