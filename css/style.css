@@ -35,6 +35,14 @@ body {
   background-color: var(--shape-background);
 }
 
+/* CONFIGURAÇÕES GERAIS */
+button, ul, a {
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
 /* TEXTO COLORIDO*/
 .texto-rosado{
   color: var(--primary-light)
@@ -65,12 +73,10 @@ header .texto-tachado {
 }
 
 header .lista-nav {
-  list-style-type: none;
   display: flex;
   gap: 32px;
 
   a {
-    text-decoration: none;
     font-size: 16px;
     color: var(--text-label);
   }
@@ -85,7 +91,6 @@ header .btn-entrar {
   a {
     color: var(--text-title);
     font-weight: bold;
-    text-decoration: none;
     font-size: 16px;
   }
 }
@@ -143,9 +148,6 @@ main {
   button {
     border-radius: 8px;
   }
-  a {
-    text-decoration: none;
-  }
 }
 
 .main-text .btn-conta {
@@ -154,7 +156,6 @@ main {
     var(--primary-mid),
     var(--primary-base));
   padding: 14px 32px;
-  border: none;
 
   a {
     color: var(--text-title);
