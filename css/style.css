@@ -48,8 +48,8 @@ header {
   height: 80px;
   display: flex;
   justify-content: space-between;
+  padding: 0 100px;
   align-items: center;
-  padding: 0 160px;
   border-bottom: 1px solid var(--shape-stroke-opacity);
 }
 
@@ -166,7 +166,7 @@ main {
 .main-text .btn-cursos {
   background-color: var(--shape-base);
   padding: 14px 28px;
-  border: 1px solid var(--shape-stroke);
+  border: 1px solid var(--shape-hover);
   a {
     color: var(--text-body);
     font-size: 16px;
