@@ -220,6 +220,9 @@ footer .container-footer {
     width: 30px;
     height: 30px;
   }
+  .star-pink {
+    display: none;
+  }
   p {
     text-transform: uppercase;
     text-align: center;

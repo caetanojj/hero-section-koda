@@ -54,8 +54,13 @@ main .btn-cursos:hover {
 footer h2:hover {
     color: var(--primary-light);
     transition: color 0.3s ease;
+}
 
-    img {
-        color: var(--primary-light);
+footer .container-star:hover {
+    .star-blue {
+        display: none;
+    }
+    .star-pink {
+        display: inline;
     }
 }
